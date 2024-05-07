@@ -13,16 +13,6 @@ public:
         }
     }
 
-    void printList(ListNode *ls){
-        if(ls != NULL){
-            while(ls->next != NULL){
-                cout << ls->val << ", ";
-                ls = ls->next;
-            }
-            cout << ls->val << endl;
-        }
-    }
-
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode *head = l1;
         ListNode *iter = head;
