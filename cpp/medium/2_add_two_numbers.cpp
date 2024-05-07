@@ -31,7 +31,7 @@ public:
     }
 };
 
-// // Long secondary solution
+// // Recursive secondary solution
 // class Solution {
 // public:
 //     void fixOverflow(ListNode *ls){
