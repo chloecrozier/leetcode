@@ -1,40 +1,65 @@
 // https://leetcode.com/problems/add-two-numbers/
 class Solution {
 public:
-    ListNode* addOverflow(ListNode *ls){
-        ls->val = ls->val%10;
-        ListNode *head = ls;
-        while(ls->next != NULL){
-            if(ls->next->val > 9){
-                ls->val = ls->val%10;
-                ls = ls->next;
-            } else {
-                ls->val += 1;
-            }
+    void fixOverflow(ListNode *ls){
+        if(ls->next == NULL){
+            ls->next = new ListNode(1);
         } else{
-            ls = new ListNode(1);
+            ls->next->val++;
+            if(ls->next->val > 9){
+                ls->next->val = ls->next->val % 10;
+                fixOverflow(ls->next);
+            }
         }
-        return head;
+    }
+
+    void printList(ListNode *ls){
+        if(ls != NULL){
+            while(ls->next != NULL){
+                cout << ls->val << ", ";
+                ls = ls->next;
+            }
+            cout << ls->val << endl;
+        }
     }
 
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *res = NULL;
+        ListNode *head = l1;
+        ListNode *iter = head;
         int sum = 0;
-        while(l1 != NULL || l2 != NULL){
-            if(l1 != NULL){
-                sum += l1->val;
-                l1 = l1->next;
-            }
-            if(l2 != NULL){
-                sum += l2->val;
-                l2 = l2->next;
-            }
-            res = new ListNode(sum, res);
+        while(iter!= NULL && l2 != NULL){
+            sum = iter->val + l2->val;
             if(sum > 9){
-                res = addOverflow(res);
+                iter->val = sum % 10;
+                fixOverflow(iter);
+            } else{
+                iter->val = sum;
+            }
+            iter = iter->next;
+            l2 = l2->next;
+            sum = 0;
+        }
+        while(l2 != NULL){
+            if(iter != NULL){
+                sum = l2->val + iter->val;
+                if(sum > 9){
+                    iter->val = sum % 10;
+                    iter->next = new ListNode(1);
+                    iter = iter->next;
+                } else{
+                    iter->val = sum;
+                }
+                l2 = l2->next;
+            } else{
+                ListNode *temp = head;
+                while(temp->next != NULL){
+                    temp = temp->next;
+                }
+                temp->next = l2;
+                l2 = NULL;
             }
             sum = 0;
         }
-        return res;
+        return head;
     }
 };
