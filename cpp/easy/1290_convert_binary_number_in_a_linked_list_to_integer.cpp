@@ -1,3 +1,4 @@
+// Posted Solution: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/solutions/5137431/simple-c-bit-shifting-solution
 // https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/
 class Solution {
 public:
