@@ -8,4 +8,4 @@ JOIN
 ON
     E.managerID = M.id
 WHERE
-    E.salary > M.salary
+    E.salary > M.salary;
