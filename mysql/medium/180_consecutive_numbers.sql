@@ -13,6 +13,3 @@ ON
     L1.id + 2 = L3.id
 WHERE
     L1.num = L2.num AND L1.num = L3.num;
-
-
-
