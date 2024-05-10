@@ -6,4 +6,4 @@ FROM
 WHERE
     description != "boring" AND MOD(id, 2) = 1
 ORDER BY
-    id DESC;
+    rating DESC;
