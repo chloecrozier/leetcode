@@ -1,3 +1,4 @@
+// Posted Solution: https://leetcode.com/problems/summary-ranges/solutions/5159256/simple-c-iterative-sliding-window-method-beats-100-of-times/
 // https://leetcode.com/problems/summary-ranges/description/
 class Solution {
 public:

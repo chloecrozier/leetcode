@@ -1,3 +1,4 @@
+// Posted Solution: https://leetcode.com/problems/intersection-of-two-arrays/solutions/5155047/simple-c-seen-vector-beats-100-time-complexity-on-m/
 // https://leetcode.com/problems/intersection-of-two-arrays/description/
 class Solution {
 public:
