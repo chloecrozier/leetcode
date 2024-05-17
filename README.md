@@ -2,9 +2,9 @@
 
 Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
 
-# Directories
+# Breakdown
 
-The current directories in the directory are:
+The current submissions in the by language and difficulty are:
 
 - cpp
 - java
