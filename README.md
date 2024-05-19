@@ -1,9 +1,9 @@
 **Leet Code Solutions**
-
+Here are my solutions to LeetCode problems. There are some duplicate solutions as I have solved them with different languages as well as multiple approaches within certain solutions.
 - Profile: https://leetcode.com/u/ChloeCrozier/
 
-**Solutions:** 153
 
+**Submissions** 153
 - Easy: 132
 
   -  python: 10
