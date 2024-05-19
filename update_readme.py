@@ -23,9 +23,10 @@ readme_content = """
 
 - Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
 
-**Solutions:**
+**Solutions:** {}
 
-"""
+""".format(sum(sum(counts.values()) for counts in directory_file_counts.values()))
+
 for category in ['easy', 'medium', 'hard']:
     readme_content += "- " 
     category_total = sum(counts[category] for counts in directory_file_counts.values())

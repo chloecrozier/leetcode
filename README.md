@@ -2,7 +2,7 @@
 
 - Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
 
-**Solutions:**
+**Solutions:** 153
 
 - Easy: 132
 
