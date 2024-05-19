@@ -2,7 +2,7 @@
 
 - Profile: https://leetcode.com/u/ChloeCrozier/
 
-**Solutions:** 153
+**Solutions:** 154
 
 - Easy: 132
 
@@ -17,9 +17,11 @@
   -  javascript: 1
 
 
-- Medium: 19
+- Medium: 20
 
   -  python: 1
+
+  -  java: 1
 
   -  cpp: 11
 
