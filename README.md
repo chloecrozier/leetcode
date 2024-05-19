@@ -4,7 +4,7 @@
 
 **Profile:**
 
-- https://leetcode.com/u/ChloeCrozier/
+- https://leetcode.com/u/ChloeCrozier
 
 
 **Submissions** 153
