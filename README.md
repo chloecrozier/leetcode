@@ -4,32 +4,32 @@
 
 **Solutions:**
 
-Easy: 132
+- Easy: 132
 
--  python: 10
+  -  python: 10
 
--  java: 2
+  -  java: 2
 
--  cpp: 92
+  -  cpp: 92
 
--  mysql: 27
+  -  mysql: 27
 
--  javascript: 1
-
-
-Medium: 19
-
--  python: 1
-
--  cpp: 11
-
--  mysql: 6
-
--  javascript: 1
+  -  javascript: 1
 
 
-Hard: 2
+- Medium: 19
 
--  cpp: 1
+  -  python: 1
 
--  mysql: 1
+  -  cpp: 11
+
+  -  mysql: 6
+
+  -  javascript: 1
+
+
+- Hard: 2
+
+  -  cpp: 1
+
+  -  mysql: 1
