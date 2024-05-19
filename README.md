@@ -1,7 +1,8 @@
+- Profile: https://leetcode.com/u/ChloeCrozier/
 **Leet Code Solutions**
 
-Here are my solutions to LeetCode problems. There are some duplicate solutions as I have solved them with different languages as well as multiple approaches within certain solutions.
-- Profile: https://leetcode.com/u/ChloeCrozier/
+Here are my solutions to various LeetCode problems. Some solutions are duplicated as I've solved them using different languages and approaches.
+
 
 **Submissions** 153
 - Easy: 132
