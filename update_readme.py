@@ -29,7 +29,7 @@ def count_files_in_subdirectories():
 
 Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
 
-###Solutions:
+**Solutions:**
 """
 
     for category in ['easy', 'medium', 'hard']:
