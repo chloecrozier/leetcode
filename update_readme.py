@@ -25,11 +25,11 @@ def count_files_in_subdirectories():
     
     # Prepare the output content
     readme_content = """
-**Leet Code Solutions**
+*Leet Code Solutions*
 
 Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
 
-**Solutions:**
+*Solutions:*
 
 """
 
