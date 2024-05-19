@@ -1,6 +1,6 @@
-*Leet Code Solutions*
+***Leet Code Solutions***
 
-Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
+- Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
 
 *Solutions:*
 
