@@ -35,10 +35,11 @@ Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/
     for category in ['easy', 'medium', 'hard']:
         category_total = sum(counts[category] for counts in directory_file_counts.values())
         readme_content += f"{category.capitalize()}: {category_total}\n"
+        readme_content += "\n" 
         for directory, count in language_counts[category].items():
             if count > 0:
                 readme_content += f"  {directory}: {count}\n"
-                readme_content += "\n"
+                readme_content += "\n" 
         readme_content += "\n"
 
     # Write the output to README.md

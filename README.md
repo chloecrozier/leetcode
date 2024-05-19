@@ -4,6 +4,7 @@ Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/
 
 **Solutions:**
 Easy: 132
+
   python: 10
 
   java: 2
@@ -16,6 +17,7 @@ Easy: 132
 
 
 Medium: 19
+
   python: 1
 
   cpp: 11
@@ -26,6 +28,7 @@ Medium: 19
 
 
 Hard: 2
+
   cpp: 1
 
   mysql: 1
