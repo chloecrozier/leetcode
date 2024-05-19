@@ -30,6 +30,7 @@ def count_files_in_subdirectories():
 Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/)
 
 **Solutions:**
+
 """
 
     for category in ['easy', 'medium', 'hard']:
@@ -39,7 +40,7 @@ Link to Profile: [Chloe's LeetCode Profile](https://leetcode.com/u/ChloeCrozier/
         for directory, count in language_counts[category].items():
             if count > 0:
                 readme_content += f"  {directory}: {count}\n"
-                readme_content += "\n" 
+                readme_content += "\t\n" 
         readme_content += "\n"
 
     # Write the output to README.md
