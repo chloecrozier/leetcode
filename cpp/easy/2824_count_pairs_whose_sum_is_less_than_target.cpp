@@ -1,21 +1,5 @@
 // https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/submissions/1265362287/
-class Solution {
-public:
-    int countPairs(vector<int>& nums, int target) {
-        int count = 0;
-        for(int i = 0; i < nums.size(); i++){
-            for(int j = i + 1; j < nums.size(); j++){
-                if(nums[i] + nums[j] < target){
-                    count++;
-                }
-            }
-        }
-        return count;
-    }
-};
-
-
-// https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/submissions/1265362287/
+// Attempt #2: Time Complexity = O(nlog(n)) - Space Complexity O(1)
 class Solution {
 public:
     int countPairs(vector<int>& nums, int target) {
@@ -34,3 +18,19 @@ public:
         return count;
     }
 };
+
+// // Attempt #1: Time Complexity = O(n^2) - Space Complexity O(1)
+// class Solution {
+// public:
+//     int countPairs(vector<int>& nums, int target) {
+//         int count = 0;
+//         for(int i = 0; i < nums.size(); i++){
+//             for(int j = i + 1; j < nums.size(); j++){
+//                 if(nums[i] + nums[j] < target){
+//                     count++;
+//                 }
+//             }
+//         }
+//         return count;
+//     }
+// };
