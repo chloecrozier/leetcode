@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/submissions/1265362287/
-// Attempt #2: Time Complexity = O(nlog(n)) - Space Complexity O(1)
+// Attempt #2: Time Complexity = O(nlog(n)) - Space Complexity = O(1)
 class Solution {
 public:
     int countPairs(vector<int>& nums, int target) {
@@ -19,7 +19,7 @@ public:
     }
 };
 
-// // Attempt #1: Time Complexity = O(n^2) - Space Complexity O(1)
+// // Attempt #1: Time Complexity = O(n^2) - Space Complexity = O(1)
 // class Solution {
 // public:
 //     int countPairs(vector<int>& nums, int target) {
