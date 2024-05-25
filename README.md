@@ -7,14 +7,14 @@
 - https://leetcode.com/u/ChloeCrozier
 
 
-**Submissions** 154
-- Easy: 133
+**Submissions** 157
+- Easy: 136
 
   -  python: 10
 
   -  java: 2
 
-  -  cpp: 92
+  -  cpp: 95
 
   -  mysql: 27
 
