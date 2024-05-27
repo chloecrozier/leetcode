@@ -15,6 +15,9 @@ public:
                     count--;
                 }
             }
+            if(count > nums.size() / 2){
+                return candidate;
+            }
         }
         return candidate;
     }
