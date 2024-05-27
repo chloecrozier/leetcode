@@ -1,3 +1,4 @@
+// Posted Solution:https://leetcode.com/problems/majority-element/solutions/5213839/moore-s-voting-algorithm-c-approach-beats-95-of-times/
 // https://leetcode.com/problems/majority-element/description/
 class Solution {
 public:
