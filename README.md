@@ -1,6 +1,6 @@
 **Leet Code Solutions**
 
-- Here are my solutions to various LeetCode problems. Some solutions are answers to the same problem but use different languages/approaches.
+- Here are my solutions to various LeetCode problems. Some solutions answer the same problem but use different languages/approaches.
 
 **Profile:**
 
