@@ -2,7 +2,7 @@
 
 # Check for 4 arguments
 if [ $# -ne 4 ]; then
-  echo "Usage: ./submit_solution [programming-language] [difficulty] [file_name] [message]"
+  echo "Usage: ./submit_solution.sh <programming-language> <difficulty> <file_name> <message>"
   exit 1
 fi
 
@@ -14,18 +14,28 @@ message="$4"
 
 # Validate programming language
 if [[ ! "$language" =~ ^(cpp|python|javascript|java|mysql)$ ]]; then
-  echo "Invalid programming language. Must be python or java."
+  echo "Invalid programming language. Must be one of: cpp, python, javascript, java, mysql."
   exit 1
 fi
 
 # Validate difficulty
 if [[ ! "$difficulty" =~ ^(easy|medium|hard)$ ]]; then
-  echo "Invalid difficulty. Must be easy, med, or hard."
+  echo "Invalid difficulty. Must be one of: easy, medium, hard."
   exit 1
 fi
 
 # Build directory path
 dir="$language/$difficulty"
+
+# Check if the directory exists, create if not
+if [ ! -d "$dir" ]; then
+  mkdir -p "$dir"
+fi
+
+# Check if the file exists, create if not
+if [ ! -f "$dir/$filename" ]; then
+  touch "$dir/$filename"
+fi
 
 # Open file in nano editor
 nano "$dir/$filename"
