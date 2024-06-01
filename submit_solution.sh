@@ -12,9 +12,20 @@ difficulty="$2"
 filename="$3"
 message="$4"
 
+# Get the list of folders in the current directory
+valid_languages=($(ls -d */ | sed 's#/##'))
+
 # Validate programming language
-if [[ ! "$language" =~ ^(cpp|python|javascript|java|mysql)$ ]]; then
-  echo "Invalid programming language. Must be one of: cpp, python, javascript, java, mysql."
+language_valid=false
+for lang in "${valid_languages[@]}"; do
+  if [ "$lang" == "$language" ]; then
+    language_valid=true
+    break
+  fi
+done
+
+if [ "$language_valid" == false ]; then
+  echo "Invalid programming language. Must be one of: ${valid_languages[@]}"
   exit 1
 fi
 
@@ -32,13 +43,11 @@ if [ ! -d "$dir" ]; then
   mkdir -p "$dir"
 fi
 
-# Check if the file exists, create if not
-if [ ! -f "$dir/$filename" ]; then
-  touch "$dir/$filename"
+# Create the file with a template content if it doesn't exist
+file_path="$dir/$filename"
+if [ ! -f "$file_path" ]; then
+  echo "// Solution for $filename" > "$file_path"
 fi
-
-# Open file in nano editor
-nano "$dir/$filename"
 
 # Update readme (assuming python3 update_readme.py exists)
 python3 update_readme.py
