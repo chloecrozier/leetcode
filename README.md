@@ -1,4 +1,3 @@
-**Leet Code Solutions**
 
 **Profile:**
 
