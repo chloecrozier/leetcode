@@ -1,8 +1,4 @@
 
-**Profile:**
-
-- https://leetcode.com/u/ChloeCrozier
-
 
 **Submissions** 171
 - Easy: 143
