@@ -1,6 +1,4 @@
 
-
-**Submissions** 171
 - Easy: 143
 
   -  python: 10
