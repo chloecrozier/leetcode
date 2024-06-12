@@ -1,30 +1,6 @@
 
-- Easy: 143
+- Easy: 143]
 
-  -  python: 10
+- Medium: 26]
 
-  -  java: 2
-
-  -  cpp: 102
-
-  -  mysql: 27
-
-  -  javascript: 2
-
-
-- Medium: 26
-
-  -  python: 1
-
-  -  cpp: 18
-
-  -  mysql: 6
-
-  -  javascript: 1
-
-
-- Hard: 2
-
-  -  cpp: 1
-
-  -  mysql: 1
+- Hard: 2]
