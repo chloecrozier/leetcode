@@ -1,6 +1,6 @@
 
-- Easy: 143]
+- Easy: 143
 
-- Medium: 26]
+- Medium: 26
 
-- Hard: 2]
+- Hard: 2
