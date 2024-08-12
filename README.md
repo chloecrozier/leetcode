@@ -1,19 +1,20 @@
 **Leet Code Solutions**
 
+- Here are my solutions to various LeetCode problems. Some solutions are answers to the same problem but use different languages/approaches.
 
 **Profile:**
 
 - https://leetcode.com/u/ChloeCrozier
 
 
-**Submissions** 180
-- Easy: 146
+**Submissions** 181
+- Easy: 147
 
   -  python: 10
 
   -  java: 2
 
-  -  cpp: 105
+  -  cpp: 106
 
   -  mysql: 27
 
