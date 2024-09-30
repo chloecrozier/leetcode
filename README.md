@@ -7,7 +7,7 @@
 - https://leetcode.com/u/ChloeCrozier
 
 
-**Submissions** 189
+**Submissions** 190
 - Easy: 149
 
   -  python: 10
@@ -21,9 +21,9 @@
   -  javascript: 2
 
 
-- Medium: 35
+- Medium: 36
 
-  -  python: 2
+  -  python: 3
 
   -  cpp: 26
 
