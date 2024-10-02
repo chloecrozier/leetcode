@@ -5,5 +5,4 @@ class Solution:
         valMap = {num: index + 1 for index, num in enumerate(sorted(set(arr[:])))}
         for num in arr:
             res.append(valMap[num])
-
         return res
