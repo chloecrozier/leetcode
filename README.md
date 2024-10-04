@@ -7,10 +7,10 @@
 - https://leetcode.com/u/ChloeCrozier
 
 
-**Submissions** 197
-- Easy: 155
+**Submissions** 198
+- Easy: 156
 
-  -  python: 16
+  -  python: 17
 
   -  java: 2
 
