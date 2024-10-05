@@ -13,7 +13,7 @@ class Solution:
         
         for i in range(len(s2) - substrLen + 1):
             strElems = {}
-            chunk = s2[i:i+substrLen] # get a subset of s2 of size s1
+            chunk = s2[i:i+substrLen] # get a subset from s2 of size s1
             for j in range(len(chunk)):
                 if chunk[j] in substrElems:
                     if chunk[j] in strElems:
@@ -25,5 +25,6 @@ class Solution:
                     if substrElems == strElems:
                         return True
                 else:
-                    i = j
+                    i = j + 1
+                    break
         return False
