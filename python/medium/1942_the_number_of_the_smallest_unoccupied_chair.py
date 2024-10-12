@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/?envType=daily-question&envId=2024-10-12
 class Solution:
     def smallestChair(self, times: List[List[int]], targetFriend: int) -> int:
         arrival = []
