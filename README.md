@@ -1,8 +1,5 @@
 **Leet Code Solutions**
 
-- Here are my solutions to various LeetCode problems. Some solutions are answers to the same problem but use different methods.
-
-
 **Submissions** 239
 - Easy: 172
 
