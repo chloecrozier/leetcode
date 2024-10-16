@@ -1,6 +1,5 @@
 **Leet Code Solutions**
 
-<<<<<<< HEAD
 - Here are my solutions to various LeetCode problems. Some solutions are answers to the same problem but use different languages/approaches.
 
 **Profile:**
@@ -9,9 +8,6 @@
 
 
 **Submissions** 240
-=======
-**Submissions** 239
->>>>>>> d6dc954b324f725c18cc957fc3c3b8776569d53a
 - Easy: 172
 
   -  python: 32
