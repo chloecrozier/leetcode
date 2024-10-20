@@ -1,4 +1,3 @@
-#x
 # https://leetcode.com/problems/merge-intervals/description/
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
