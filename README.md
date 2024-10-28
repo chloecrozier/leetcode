@@ -12,8 +12,6 @@
 
   -  python: 33
 
-  -  java: 2
-
   -  cpp: 109
 
   -  mysql: 27
