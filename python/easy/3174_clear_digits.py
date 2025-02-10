@@ -3,7 +3,6 @@ class Solution:
     def clearDigits(self, s: str) -> str:
         res = []
         s = list(s)
-        tracker = []
         for i in range(len(s)):
             if s[i].isdigit():
                 if res:
