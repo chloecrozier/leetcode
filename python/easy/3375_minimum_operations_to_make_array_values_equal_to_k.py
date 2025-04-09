@@ -4,7 +4,6 @@ class Solution:
         setNums = set(nums)
         if k > min(nums):
             return -1
-
         if k in setNums:
             return len(setNums) - 1
         else:
