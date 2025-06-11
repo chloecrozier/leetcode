@@ -6,9 +6,9 @@
 
 - https://leetcode.com/u/ChloeCrozier
 
-**Submissions This Week:** 5
+**Submissions This Week:** 6
 
-**Total Submissions:** 451
+**Total Submissions:** 452
 - Easy: 298
   - python: 152
   - java: 2
@@ -16,8 +16,8 @@
   - cpp: 109
   - mysql: 27
   - javascript: 6
-- Medium: 142
-  - python: 108
+- Medium: 143
+  - python: 109
   - cpp: 27
   - mysql: 6
   - javascript: 1
