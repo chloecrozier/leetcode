@@ -6,11 +6,11 @@
 
 - https://leetcode.com/u/ChloeCrozier
 
-**Submissions This Week:** 9
+**Submissions This Week:** 10
 
-**Total Submissions:** 455
-- Easy: 301
-  - python: 155
+**Total Submissions:** 456
+- Easy: 302
+  - python: 156
   - java: 2
   - bash: 2
   - cpp: 109
