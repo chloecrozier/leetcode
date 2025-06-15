@@ -2,7 +2,7 @@
 class Solution:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
         ogVisit = [original]
-        cpVisit = [copy]
+        cpVisit = [cloned]
         while ogVisit and cpVisit:
             ogCurr = ogVisit.pop()
             cpCurr = cpVisit.pop()
