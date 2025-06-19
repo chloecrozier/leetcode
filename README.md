@@ -6,7 +6,7 @@
 
 - https://leetcode.com/u/ChloeCrozier
 
-**Submissions This Week:** 8
+**Submissions This Week:** 9
 
 **Total Submissions:** 468
 - Easy: 305
