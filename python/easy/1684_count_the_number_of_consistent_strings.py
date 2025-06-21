@@ -5,6 +5,7 @@ class Solution:
         for s in words:
             count = 0
             for c in allowed:
-                count += s.count('a')
+                count += s.count(c)
+            if count == len(s):
                 res += 1
         return res
