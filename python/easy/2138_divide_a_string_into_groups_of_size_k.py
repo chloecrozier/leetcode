@@ -8,7 +8,6 @@ class Solution:
             i += k
 
         if i < len(s):
-            tail = [fill] * (k - len(s) - i)
-            # print(i, s[i:] + ''.join(tail))
+            tail = [fill] * (k - (len(s) - i))
             res.append(s[i:] + ''.join(tail))
         return res
