@@ -8,9 +8,9 @@
 
 **Submissions This Week:** 6
 
-**Total Submissions:** 487
-- Easy: 320
-  - python: 174
+**Total Submissions:** 486
+- Easy: 319
+  - python: 173
   - java: 2
   - bash: 2
   - cpp: 109
