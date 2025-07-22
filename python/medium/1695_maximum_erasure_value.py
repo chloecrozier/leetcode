@@ -3,14 +3,18 @@ class Solution:
     def maximumUniqueSubarray(self, nums: List[int]) -> int:
         l = 0
         r = l + 1
-
-        res = 0
-        curr = []
-        while l < r and r <= len(nums):
-            curr = nums[l:r]
-            if len(set(curr)) == len(curr):
-                r += 1
-                res = max(res, sum(curr))
-            else:
+        m = {nums[l]: l}
+        currSum = nums[l]
+        res = currSum
+        while l < r and r < len(nums):
+            while nums[r] in m:
+                currSum -= nums[l]
+                del m[nums[l]]
                 l += 1
+            else:
+                currSum += nums[r]
+                m[nums[r]] = r
+                r += 1
+            res = max(res, currSum)
+
         return res
