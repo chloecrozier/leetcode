@@ -8,7 +8,7 @@
 
 **Submissions This Week:** 6
 
-**Total Submissions:** 509
+**Total Submissions:** 510
 - Easy: 328
   - python: 182
   - java: 2
@@ -21,7 +21,7 @@
   - cpp: 27
   - mysql: 6
   - javascript: 1
-- Hard: 13
-  - python: 8
+- Hard: 14
+  - python: 9
   - cpp: 4
   - mysql: 1
